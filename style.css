@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+
+  --cor0: #4F54E8;
+  --cor1: #E89066;
+  --cor2: #25299C;
+  --cor3: #9fc8fd81;
+  --cor4: #68E838;
+
+  --fonte-destaque: 'Bebas Neue', cursiva;
+  --fonte-paragraf: 'Indie Flower', cursiva;
+}
+
+body {
+  background-color:var(--cor3);
+  
+}
+
+header {
+  background-image: linear-gradient( to bottom, var(--cor1), var(--cor4));
+  min-height: 150px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: var(--fonte-paragraf);
+  color: white;
+  font-size: 5em;
+  text-decoration: none;
+  text-shadow: 0px 2px 2px black;
+  
+}
+
+nav {
+  padding: 20px;
+  text-align: left;  
+  box-shadow: 0px 2px 2px var(--cor1)
+}
+
+nav a {
+  box-shadow: 1px 2px 2px var(--cor1);
+  color: white;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  padding: 15px;
+  text-decoration: none;
+  transition-duration: .5s;
+}
+
+nav > a:hover {
+  color: #E89066;
+}
+
+
+main {
+  background-color: var(--cor4);
+  min-width: 320px;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+main h2 {
+  text-align: center;
+  color: white;
+  font-family: var(--fonte-paragraf);
+  font-size: 3em;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+
+
+main p {
+  line-height: 2em;
+  font-size: 1.2em;
+  font-family: var(--fonte-paragraf);
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: justify;
+  text-align: center;
+  
+}
+
+img {
+  width: 100%;
+}  
+
+aside {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--cor1);
+  margin-bottom: 10px;
+  
+}
+
+aside h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+aside ul {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  list-style-position: inside;
+  text-align: justify;
+}
+
+footer {
+  background-image: linear-gradient(to top, #E89066,#68E838);
+  color: white;
+  text-align: center;
+  padding:20px;
+  font-family: var(--fonte-paragraf);
+  font-size: 1.5em;
+}
